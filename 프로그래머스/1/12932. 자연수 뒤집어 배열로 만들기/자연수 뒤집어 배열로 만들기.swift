@@ -8,7 +8,7 @@ func solution(_ n:Int64) -> [Int] {
     // return하는 배열을 만든다.
     var answerArray:[Int] = []
     
-    // 문자열로 캐스팅하여 return 배열에 (오른쪽에서 왼쪽으로) 넣는다.
+    // Int로 캐스팅하여 return 배열 앞에 넣는다.
     for chr in String(n) {
         let num = Int(String(chr)) ?? 0
         answerArray.insert(num, at: 0) 
