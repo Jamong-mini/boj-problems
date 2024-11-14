@@ -11,6 +11,7 @@ func solution(_ n:Int64) -> Int64 {
         return -1
     }
     
+    // 문제 해결
     // 비교할 배열 생성
     var valueArray: [Character] = []
     var indexStack: Int = 0
